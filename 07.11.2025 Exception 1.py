@@ -1,3 +1,5 @@
+# Program I
+
 def main():
     num = 0
 
@@ -9,6 +11,7 @@ def main():
 if __name__ =="__main__":
     main()
 
+# Program II
 def main():
     s = input("Enter the string characters: ")
 
@@ -16,6 +19,18 @@ def main():
         print("Check the length of the string....")
         s = input("Enter the string characters again")
     print("You got it!")
+
+if __name__ == "__main__":
+    main()
+
+# Program III
+def main():
+    s = input("Enter correct characters: ")
+
+    while s != "stop" and s != "quit":
+        print("Wrong characters entered, try again.....")
+        s = input("Enter the characters: ")
+    print("Correct and the program ends")
 
 if __name__ == "__main__":
     main()
